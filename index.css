@@ -1,0 +1,266 @@
+.topmenu {
+position: fixed;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: medium;
+height: 60px;
+color: white;
+text-align: left;
+z-index: 2;
+padding-block: 10px;
+margin-bottom: 10px;
+}
+
+
+.display-4 {
+    position: relative;
+    top:215px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-stretch: expanded;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+.aboutMe {
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    right: 390px;
+    top: 125px;
+}
+
+
+
+.firstName {
+    position: relative;
+    top: 230px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-stretch: expanded;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    right: 55px;
+}
+
+.subtitle {
+    position: relative;
+    top: 210px;
+    color:rgb(114, 194, 197);
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: sans-serif;
+
+}
+.links {
+    position: relative;
+    text-align: right;
+    bottom: 100px;
+}
+
+.jumbotron {
+    position: relative;
+    height: 485px;
+    background-color: rgb(80, 81, 82);
+    top: 45px;
+    }
+
+.profilepic {
+    position: relative;
+    display: inline;
+    top: 275px;
+    border-image: 50%;
+    border-radius: 50%;
+    align-content: right;
+}
+
+.aboutMe {
+    position: relative;
+    text-align: left;
+    color: white;
+    bottom: 35px;
+    
+}
+
+body {
+    background: #1d1f20;
+    text-align: center;
+    padding: 55px;
+    font-family: sans-serif;
+  }
+  
+  .button {
+    position: relative;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: rgb(57, 57, 58);
+    padding: 15px 40px;
+    border-radius: 4px;
+    font-weight: normal;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+    left: 25px;
+
+  }
+
+  .button2 {
+    position: relative;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: rgb(57, 57, 58);
+    padding: 15px 40px;
+    border-radius: 4px;
+    font-weight: normal;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+    /* left: 350px; */
+  }
+
+.glow-button2:hover {
+    color: rgb(10, 135, 238);
+    box-shadow: 0 5px 15px rgb(10, 135, 238);
+}
+  
+.button3 {
+    position: relative;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: rgb(57, 57, 58);
+    padding: 15px 40px;
+    border-radius: 4px;
+    font-weight: normal;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+    left: 1035px;
+}
+
+.glow-button3:hover {
+    color: rgb(10, 135, 238);
+    box-shadow: 0 5px 15px rgb(10, 135, 238);
+}
+
+.button4 {
+    position: relative;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: rgb(57, 57, 58);
+    padding: 15px 40px;
+    border-radius: 4px;
+    font-weight: normal;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+    left: 52px;
+}
+
+.glow-button4:hover {
+    color: rgb(10, 135, 238);
+    box-shadow: 0 5px 15px rgb(10, 135, 238);
+}
+
+
+  .glow-button:hover {
+    color: rgb(10, 135, 238);
+    box-shadow: 0 5px 15px rgb(10, 135, 238);
+  }
+
+  #web-dev {
+      color: white;
+      font-family: serif;
+      font-size: 22px;
+  }
+
+  .container {
+      color: white;
+      background-color: black;
+  }
+
+  .card {
+      border: 4px solid rgb(71, 69, 69);
+      border-radius: 10px 10px 10px 10px;
+      opacity: .8;
+      background-color: rgb(255, 255, 255); 
+  }
+
+  .card-title {
+      color: black;
+  }
+
+  .webdev-disclaimer {
+      text-align: center;
+      color: white;
+  }
+
+  .crm-section {
+      position: relative;
+      color: white;
+      font-size: 44px;
+
+  }
+
+  .crm-floating1 {
+      position: relative;
+      text-align: left;
+      bottom: 700px;
+      transform: rotate(-10deg);
+    
+  }
+
+  .footer {
+      text-align: right;
+  }
+
+  .crm-floating2 {
+      position: relative;
+      text-align: right;
+      left: 60px;
+      bottom: 850px;
+      transform: rotate(20deg);
+  }
+
+  .crm-floating3 {
+    position: relative;
+    text-align: right;
+    left: 60px;
+    bottom: 625px;
+    transform: rotate(20deg);
+}
+
+.crm-floating4 {
+    position: relative;
+    text-align: right;
+    height: 200px;
+    width: 200px;
+    left: -50px;
+    bottom: 625px;
+    transform: rotate(-10deg);
+}
+
+.center-center {
+    position: absolute;
+    bottom: 540px;
+    right: 260px;
+}
+
+.officebackground {
+    position: relative;
+    top: 3px;
+    width: max-content;
+    opacity: .9;
+}
+
+
+.containerTwo {
+    width: fit-content; 
+    margin: auto;
+    height: 675px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    color: blanchedalmond;
+    font-size: x-large;
+} 
+
+.contactForm {
+    position: relative;
+    
+}
